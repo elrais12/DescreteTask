@@ -1,0 +1,8 @@
+C:\Users\abdel\source\repos\perfect number dr sAMEER\perfect number dr sAMEER\bin\Debug\perfect number dr sAMEER.exe.config
+C:\Users\abdel\source\repos\perfect number dr sAMEER\perfect number dr sAMEER\bin\Debug\perfect number dr sAMEER.exe
+C:\Users\abdel\source\repos\perfect number dr sAMEER\perfect number dr sAMEER\bin\Debug\perfect number dr sAMEER.pdb
+C:\Users\abdel\source\repos\perfect number dr sAMEER\perfect number dr sAMEER\obj\Debug\perfect number dr sAMEER.csproj.AssemblyReference.cache
+C:\Users\abdel\source\repos\perfect number dr sAMEER\perfect number dr sAMEER\obj\Debug\perfect number dr sAMEER.csproj.SuggestedBindingRedirects.cache
+C:\Users\abdel\source\repos\perfect number dr sAMEER\perfect number dr sAMEER\obj\Debug\perfect number dr sAMEER.csproj.CoreCompileInputs.cache
+C:\Users\abdel\source\repos\perfect number dr sAMEER\perfect number dr sAMEER\obj\Debug\perfect number dr sAMEER.exe
+C:\Users\abdel\source\repos\perfect number dr sAMEER\perfect number dr sAMEER\obj\Debug\perfect number dr sAMEER.pdb

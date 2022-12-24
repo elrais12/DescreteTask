@@ -1,27 +1,38 @@
-﻿ // reading the ism num 
-Console.WriteLine("enter the in ");
-int s = int .Parse(Console.ReadLine());
-// reading the 2nd num 
-Console.WriteLine(" enter the 2n ");
-int e = int .  Parse(Console.ReadLine());
-int sum = 0;
-Console.WriteLine(" the prime numbers from {0} to {1} is",s,e);
-for (int i = s; i <= e; i++)
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace perfect_number
+
 {
-    for ( int x = 1; x<= i; x++)
-    {
-        if (i % x == 0)
-            sum++; 
-    }
-    if ( sum== 2)
-    {
-        Console.WriteLine(i);
-        sum = 0; 
+    internal class Program
+    { static bool Isperfect( int number)
+        {
+            int sum = 0;
+            for( int i =1; i < number; i++ )
+            {
+                if (number % i == 0) sum = sum + i; 
+            }
+            if (sum == number) return true;
+            return false; 
+        }
+        static void Main(string[] args)
+        {
+            int x, y;
+            Console.Write("please enter the first nubmer:");
+            x= int.Parse(Console.ReadLine());
+            Console.Write("please enter the second number:");
+            y= int.Parse(Console.ReadLine());
+
+            Console.WriteLine("\n");
+            for(int i = x; i <= y; i++)
+            { 
+                if(Isperfect (i)) Console.Write("{0}, ", i );
+            }
+           Console.ReadKey();
+        }
 
     }
-    else
-    {
-        sum = 0; 
-    }
-    
 }
